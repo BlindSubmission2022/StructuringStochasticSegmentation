@@ -203,7 +203,7 @@ def predict(
 
 
 def view_sample_predictions(
-    model, loader, n=2, save_path=None, pkl_path="./", save_pkl=False
+    model, loader, n=9999999, save_path=None, pkl_path="./", save_pkl=True
 ):
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
