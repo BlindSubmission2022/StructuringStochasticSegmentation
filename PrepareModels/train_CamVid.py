@@ -106,8 +106,7 @@ print("Used device: {}".format(device))
 normalize = transforms.Normalize(mean=camvid.mean, std=camvid.std)
 train_joint_transformer = transforms.Compose(
     [
-        joint_transforms.JointRandomHorizontalFlip(),
-        joint_transforms.JointRandomCrop(244),
+        joint_transforms.JointRandomHorizontalFlip()    
     ]
 )
 
