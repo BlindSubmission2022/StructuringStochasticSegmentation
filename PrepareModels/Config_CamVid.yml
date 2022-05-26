@@ -10,7 +10,7 @@ training:
     num_epochs: 1000
     val_steps: None
 
-    batch_size_train: 1
+    batch_size_train: 4
     batch_size_val: 4
     batch_size_test: 4
 
