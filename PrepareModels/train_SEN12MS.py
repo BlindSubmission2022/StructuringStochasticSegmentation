@@ -190,7 +190,7 @@ for epoch in range(num_epochs):
         global_step = i + step
 
         # run validation
-        if global_step >= 0 and global_step % val_step == 0:
+        if global_step > 0 and global_step % val_step == 0:
             # do validation step
             print("Start validation.")
             # set model to evaluation mode
